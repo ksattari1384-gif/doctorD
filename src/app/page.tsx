@@ -8,6 +8,7 @@ import { Advantages } from "@/components/site/advantages";
 import { BookingSteps } from "@/components/site/booking-steps";
 import { Testimonials } from "@/components/site/testimonials";
 import { WorkingHours } from "@/components/site/working-hours";
+import { FinalCta } from "@/components/site/final-cta";
 
 export default function HomePage() {
   return (
@@ -21,6 +22,7 @@ export default function HomePage() {
         <BookingSteps />
         <Testimonials />
         <WorkingHours />
+        <FinalCta />
       </main>
       <Footer />
       <FloatingBar />
