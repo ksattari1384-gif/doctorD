@@ -4,6 +4,7 @@ import { FloatingBar } from "@/components/site/floating-bar";
 import { Hero } from "@/components/site/hero";
 import { DoctorIntro } from "@/components/site/doctor-intro";
 import { FeaturedServices } from "@/components/site/featured-services";
+import { Advantages } from "@/components/site/advantages";
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
         <Hero enabled={false} />
         <DoctorIntro />
         <FeaturedServices />
+        <Advantages />
       </main>
       <Footer />
       <FloatingBar />
