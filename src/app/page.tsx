@@ -7,6 +7,7 @@ import { FeaturedServices } from "@/components/site/featured-services";
 import { Advantages } from "@/components/site/advantages";
 import { BookingSteps } from "@/components/site/booking-steps";
 import { Testimonials } from "@/components/site/testimonials";
+import { WorkingHours } from "@/components/site/working-hours";
 
 export default function HomePage() {
   return (
@@ -19,6 +20,7 @@ export default function HomePage() {
         <Advantages />
         <BookingSteps />
         <Testimonials />
+        <WorkingHours />
       </main>
       <Footer />
       <FloatingBar />
