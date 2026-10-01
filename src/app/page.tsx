@@ -6,6 +6,7 @@ import { DoctorIntro } from "@/components/site/doctor-intro";
 import { FeaturedServices } from "@/components/site/featured-services";
 import { Advantages } from "@/components/site/advantages";
 import { BookingSteps } from "@/components/site/booking-steps";
+import { Testimonials } from "@/components/site/testimonials";
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
         <FeaturedServices />
         <Advantages />
         <BookingSteps />
+        <Testimonials />
       </main>
       <Footer />
       <FloatingBar />
